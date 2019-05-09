@@ -41,8 +41,19 @@ extension ViewController: UITableViewDataSource {
         
         let model: Model = self.model[indexPath.row]
         
-        //cell.thumb.image
-        cell.date.text = model.endTime
+        let dateFormatterGet = DateFormatter()
+        dateFormatterGet.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        
+        let dateFormatterPrint = DateFormatter()
+        dateFormatterPrint.dateFormat = "~MM월 dd일 HH시 mm분"
+        
+        if let date = dateFormatterGet.date(from: model.endTime) {
+            cell.date.text = dateFormatterPrint.string(from: date)
+        } else {
+            print("error")
+        }
+
+        
         cell.date.font = UIFont.systemFont(ofSize: 13.0)
         cell.field.text = model.fields
         cell.field.font = UIFont.systemFont(ofSize: 15.0)

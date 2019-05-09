@@ -32,8 +32,8 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CXT-5n-204">
                                                     <rect key="frame" x="5" y="17" width="130" height="128"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="128" id="E7P-O0-Ule"/>
-                                                        <constraint firstAttribute="width" constant="130" id="lqD-AO-TSI"/>
+                                                        <constraint firstAttribute="height" constant="128" id="6wE-rL-L4i"/>
+                                                        <constraint firstAttribute="width" constant="130" id="vvG-Fj-f85"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="voo-QM-ezu">
@@ -64,11 +64,11 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="CXT-5n-204" secondAttribute="bottom" constant="17.5" id="412-Xe-60E"/>
                                                 <constraint firstItem="voo-QM-ezu" firstAttribute="top" secondItem="CYc-fA-7DZ" secondAttribute="topMargin" constant="30" id="B2m-uE-FiM"/>
                                                 <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="o8y-5b-6cf" secondAttribute="trailing" id="BPl-WZ-CGv"/>
                                                 <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="voo-QM-ezu" secondAttribute="trailing" id="EWS-sA-V8h"/>
                                                 <constraint firstItem="GLk-3Y-uZt" firstAttribute="top" secondItem="o8y-5b-6cf" secondAttribute="bottom" constant="10" id="F69-Td-lom"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="GLk-3Y-uZt" secondAttribute="bottom" constant="28" id="UGT-Jn-EW8"/>
                                                 <constraint firstItem="voo-QM-ezu" firstAttribute="leading" secondItem="CXT-5n-204" secondAttribute="trailing" constant="18" id="Vgw-wh-uWb"/>
                                                 <constraint firstItem="o8y-5b-6cf" firstAttribute="leading" secondItem="CXT-5n-204" secondAttribute="trailing" constant="18" id="aYB-nC-6ZJ"/>
                                                 <constraint firstItem="o8y-5b-6cf" firstAttribute="top" secondItem="voo-QM-ezu" secondAttribute="bottom" constant="10" id="cKT-uU-l1o"/>
