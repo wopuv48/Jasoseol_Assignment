@@ -1,3 +1,3 @@
-# Jasoseol_Assignment
-자소설닷컴 온라인 과제
+# Jasoseol_Copy
+자소설닷컴 회사선택화면 카피
 
